@@ -8,7 +8,7 @@ class GameError(Exception):
 # => Handling format and other errors on input
 
 # check_next_player => Checking that players take their appropriate turns
-#	and don't play twice straight and also that players are 'X' or 'Y',
+#	and don't play twice straight and also that players are 'X' or 'O',
 #	which are the only authorized players
 
 def check_next_player(current_player, next_player):
